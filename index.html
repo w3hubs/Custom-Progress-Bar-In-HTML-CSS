@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Custom Progress Bar In HTML/CSS</title>
+    <style type="text/css">
+      body{
+      background: #f2f2f2;
+      }
+      .content{
+      width: 80vw;
+      margin: 0 auto;
+      }
+      progress{
+      height: 80px;
+      border-radius: 60px;
+      background: #EEF2FF;
+      box-sizing: border-box;
+      border: 8px solid #121212;
+      width: 100%;
+      margin-top: 40px
+      }
+      ::-webkit-progress-value {
+      border-radius: 30px;
+      }
+      ::-webkit-progress-bar{
+      background: transparent;
+      }
+      progress#first::-moz-progress-bar {
+      background: #2D4263;
+      }
+      progress#first::-webkit-progress-value {
+      background: #2D4263;
+      } 
+       progress#second::-moz-progress-bar {
+      background: #009DAE;
+      }
+      progress#second::-webkit-progress-value {
+      background: #009DAE;
+      } 
+       progress#third::-moz-progress-bar {
+      background: #FF5403;
+      }
+      progress#third::-webkit-progress-value {
+      background: #FF5403;
+      } 
+       progress#fourth::-moz-progress-bar {
+      background: #781D42;
+      }
+      progress#fourth::-webkit-progress-value {
+      background: #781D42;
+      } 
+       progress#five::-moz-progress-bar {
+      background: #064635;
+      }
+      progress#five::-webkit-progress-value {
+      background: #064635;
+      } 
+      progress#six::-moz-progress-bar {
+      background: #3F3351;
+      }
+      progress#six::-webkit-progress-value {
+      background: #3F3351;
+      } 
+      progress#seven::-moz-progress-bar {
+      background: #9D5C0D;
+      }
+      progress#seven::-webkit-progress-value {
+      background: #9D5C0D;
+      } 
+      progress#eight::-moz-progress-bar {
+      background: #297F87;
+      }
+      progress#eight::-webkit-progress-value {
+      background: #297F87;
+      } 
+      progress#nine::-moz-progress-bar {
+      background: #6C4A4A;
+      }
+      progress#nine::-webkit-progress-value {
+      background: #6C4A4A;
+      } 
+      progress#ten::-moz-progress-bar {
+      background: #7027A0;
+      }
+      progress#ten::-webkit-progress-value {
+      background: #7027A0;
+      } 
+
+    </style>
+  </head>
+  <body class="content">
+    <progress id="first" value="40" max="100"> 32% </progress>
+    <progress id="second" value="80" max="100"> 32% </progress>
+    <progress id="third" value="90" max="100"> 32% </progress>
+    <progress id="fourth" value="50" max="100"> 32% </progress>
+    <progress id="five" value="45" max="100"> 32% </progress>
+    <progress id="six" value="65" max="100"> 32% </progress>
+    <progress id="seven" value="88" max="100"> 32% </progress>
+    <progress id="eight" value="98" max="100"> 32% </progress>
+    <progress id="nine" value="38" max="100"> 32% </progress>
+    <progress id="ten" value="48" max="100"> 32% </progress>
+  </body>
+</html>
